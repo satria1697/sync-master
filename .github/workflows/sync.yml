@@ -36,7 +36,7 @@ jobs:
       # Step 5: Commit and push changes to Repo 2
       - name: Commit and Push Changes to Repo 2
         run: |
-          cd repo2
+          cd child
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add .

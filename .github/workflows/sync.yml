@@ -25,7 +25,7 @@ jobs:
       - name: Check out my other private repo
         uses: actions/checkout@v2
         with:
-          repository: satria1697/master
+          repository: satria1697/child
           token: ${{ secrets.MY_GITHUB_TOKEN }}
           path: child
 
